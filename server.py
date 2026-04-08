@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from backend.db import requests_collection
+from db import requests_collection
 from bson import ObjectId
 
 app = FastAPI()
